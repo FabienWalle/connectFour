@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id="scores">
+        <div id="playerOne" class="players">
+            <span>Jaune</span>
+            <span id="playerOneScore">0</span>
+        </div>
+        <div id="playerTwo" class="players">
+            <span>Rouge</span>
+            <span id="playerTwoScore">0</span>
+        </div>
+        <div id="draw" class="players">
+            <span>Match nul</span>
+            <span id="drawScore">0</span>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox"/>
+            <span>CPU MODE (jaune)</span>
+        </div>
+        <div id="whoPlays">
+            <span>qui joue?</span>
+            <span id="tour">rouge</span>
+        </div>
+
+    </div>
+    <div id="grid">
+        <div class="col" id="colOne">
+            <div class="cell" id="oneOne"></div>
+            <div class="cell" id="oneTwo"></div>
+            <div class="cell" id="oneThree"></div>
+            <div class="cell" id="oneFour"></div>
+            <div class="cell" id="oneFive"></div>
+            <div class="cell" id="oneSix"></div>
+        </div>
+        <div class="col" id="colTwo">
+            <div class="cell" id="twoOne"></div>
+            <div class="cell" id="twoTwo"></div>
+            <div class="cell" id="twoThree"></div>
+            <div class="cell" id="twoFour"></div>
+            <div class="cell" id="twoFive"></div>
+            <div class="cell" id="twoSix"></div>
+        </div>
+        <div class="col" id="colThree">
+            <div class="cell" id="threeOne"></div>
+            <div class="cell" id="threeTwo"></div>
+            <div class="cell" id="threeThree"></div>
+            <div class="cell" id="threeFour"></div>
+            <div class="cell" id="threeFive"></div>
+            <div class="cell" id="threeSix"></div>
+        </div>
+        <div class="col" id="colFour">
+            <div class="cell" id="fourOne"></div>
+            <div class="cell" id="fourTwo"></div>
+            <div class="cell" id="fourThree"></div>
+            <div class="cell" id="fourFour"></div>
+            <div class="cell" id="fourFive"></div>
+            <div class="cell" id="fourSix"></div>
+        </div>
+        <div class="col" id="colFive">
+            <div class="cell" id="fiveOne"></div>
+            <div class="cell" id="fiveTwo"></div>
+            <div class="cell" id="fiveThree"></div>
+            <div class="cell" id="fiveFour"></div>
+            <div class="cell" id="fiveFive"></div>
+            <div class="cell" id="fiveSix"></div>
+        </div>
+        <div class="col" id="colSix">
+            <div class="cell" id="sixOne"></div>
+            <div class="cell" id="sixTwo"></div>
+            <div class="cell" id="sixThree"></div>
+            <div class="cell" id="sixFour"></div>
+            <div class="cell" id="sixFive"></div>
+            <div class="cell" id="sixSix"></div>
+        </div>
+        <div class="col" id="colSeven">
+            <div class="cell" id="sevenOne"></div>
+            <div class="cell" id="sevenTwo"></div>
+            <div class="cell" id="sevenThree"></div>
+            <div class="cell" id="sevenFour"></div>
+            <div class="cell" id="sevenFive"></div>
+            <div class="cell" id="sevenSix"></div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
